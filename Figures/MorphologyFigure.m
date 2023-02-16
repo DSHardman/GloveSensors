@@ -1,4 +1,5 @@
 my_colors;
+load('morphologyData.mat');
 
 figure();
 my_errorbar({thickness}, colors(1,:));

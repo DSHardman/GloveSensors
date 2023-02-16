@@ -1,3 +1,6 @@
+load('characterisationData.mat');
+load("../StrainTests/AllCroppedStrains.mat");
+
 t = tiledlayout(2,2);
 t.TileSpacing = 'compact';
 t.Padding = 'compact';
