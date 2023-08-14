@@ -11,7 +11,7 @@ write(obj1, ':APERture SHORt');%SHORt MEDium
 write(obj1, ':DISPlay:ENABle 1');%disable display
 
 y_u_wide= []
-for x = 0:1:1000
+for x = 0:1:50
 pause(0.02)
 write(obj1, ':FREQuency:CW ' + string(1000))
 readout = writeread(obj1, "FETCh:IMPedance:CORRected?");
